@@ -11,7 +11,7 @@ public class JoinStrings {
         System.out.println(names);
         System.out.println("Adding names now.");
         List<User> users = UsersListFactory.getList();
-        users.stream().map(u->u.getName()).sorted().forEach(names::add);
+        users.stream().map(User::getName).sorted().forEach(names::add);
         System.out.println(names);
         System.out.println("Length is "+names.length());
     }

@@ -1,26 +1,22 @@
 package org.ravi;
 
-public class User {
+class User {
 
     private String name;
     private String location;
     private int salary;
 
-    public User(String name, String location, int salary) {
+     User(String name, String location, int salary) {
         this.name = name;
         this.location = location;
         this.salary = salary;
     }
 
-    public String getName() {
+     String getName() {
         return name;
     }
 
-    public String getLocation() {
-        return location;
-    }
-
-    public int getSalary() {
+     int getSalary() {
         return salary;
     }
 

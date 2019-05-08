@@ -31,16 +31,16 @@ public class MethodReferences {
         frame.setVisible(true);
     }
 
-    public static void print(){
+    private static void print(){
         System.out.println("Implemented the static run method without extending thread. That's the power of method reference.");
     }
-    public void print2(){
+    private void print2(){
         System.out.println("Implemented the non static run method without extending thread. That's the power of method reference.");
     }
 
 }
 class ColorMixer{
-    public static Color add(String color1, String color2){
+     static Color add(String color1, String color2){
         int color1Percent = 50;
         ColorMixer mixer = new ColorMixer();
         int cr,cg,cb;
@@ -62,10 +62,10 @@ class ColorMixer{
     }
 }
 class HelloWorld {
-    public HelloWorld(){
+     HelloWorld(){
         System.out.println("Hello world");
     }
 }
 interface HWInterface {
-    public void print();
+     void print();
 }

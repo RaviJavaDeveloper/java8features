@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24e4b049-5ae1-4a8b-98cf-c29eb085dfd0" name="Default Changelist" comment="Removed intellij warnings">
-      <change afterPath="$PROJECT_DIR$/src/org/ravi/LogicalLR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="24e4b049-5ae1-4a8b-98cf-c29eb085dfd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/exps/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/exps/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/exps/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/exps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8features/org/ravi/ColorMixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8features/org/ravi/ColorMixer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8features/org/ravi/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8features/org/ravi/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8features/org/ravi/MethodReferences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8features/org/ravi/MethodReferences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java8features/org/ravi/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8features/org/ravi/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +35,49 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/ravi/LogicalLR.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="465">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/exps/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/exps/B.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/exps/C.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/exps/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -48,6 +87,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +105,11 @@
         <option value="$PROJECT_DIR$/src/org/ravi/MethodReferences.java" />
         <option value="$PROJECT_DIR$/src/org/ravi/User.java" />
         <option value="$PROJECT_DIR$/src/org/ravi/Strings.java" />
+        <option value="$PROJECT_DIR$/src/org/exps/C.java" />
+        <option value="$PROJECT_DIR$/src/org/exps/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/exps/B.java" />
+        <option value="$PROJECT_DIR$/src/org/exps/A.java" />
+        <option value="$PROJECT_DIR$/src/org/ravi/LogicalLR.java" />
       </list>
     </option>
   </component>
@@ -80,6 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,14 +143,19 @@
               <item name="java8features" type="b2602c69:ProjectViewProjectNode" />
               <item name="java8features" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ravi" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java8features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8features" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="exps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,14 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557322632293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solved LR logical question">
+      <created>1558434556684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558434556684</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30835286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31928182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,7 +318,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33083832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33083832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33233532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +364,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added optional class examples" />
     <MESSAGE value="Removed intellij warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed intellij warnings" />
+    <MESSAGE value="Solved LR logical question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved LR logical question" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/org/ravi/Main.java" />
@@ -370,10 +430,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/exps/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/exps/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/exps/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/exps/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ravi/LogicalLR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="465">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
